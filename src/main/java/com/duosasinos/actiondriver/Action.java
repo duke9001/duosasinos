@@ -25,15 +25,13 @@ import org.openqa.selenium.support.ui.FluentWait;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.Wait;
 import org.openqa.selenium.support.ui.WebDriverWait;
-
-import com.duosasinos.actioninterface.ActionInterface;
 import com.duosasinos.base.BaseClass;
 
 /**
  * @author Duke
  *
  */
-public class Action extends BaseClass implements ActionInterface {
+public class Action extends BaseClass {
 
 	
 	public void scrollByVisibilityOfElement(WebDriver driver, WebElement ele) {
@@ -48,6 +46,7 @@ public class Action extends BaseClass implements ActionInterface {
 		Actions act = new Actions(driver);
 		act.moveToElement(ele).click().build().perform();
 		//((JavascriptExecutor)driver).executeScript("arguments[0].click();", ele); 
+		
 
 	}
 
@@ -743,7 +742,7 @@ public class Action extends BaseClass implements ActionInterface {
 	    Wait<WebDriver> wait = null;
 	    try {
 	        wait = new FluentWait<WebDriver>((WebDriver) driver)
-	        		.withTimeout(Duration.ofSeconds(20))
+	        		.withTimeout(Duration.ofSeconds(timeOut))
 	        	    .pollingEvery(Duration.ofSeconds(2))
 	        	    .ignoring(Exception.class);
 	        wait.until(ExpectedConditions.visibilityOf(element));
@@ -757,8 +756,16 @@ public class Action extends BaseClass implements ActionInterface {
 	}
 	
 	public void explicitWait(WebDriver driver, WebElement element, int timeOut ) {
-		WebDriverWait wait = new WebDriverWait(driver,timeOut);
-		wait.until(ExpectedConditions.visibilityOf(element));
+		/*
+		 * WebDriverWait wait = new WebDriverWait(driver,timeOut);
+		 * wait.until(ExpectedConditions.visibilityOf(element));
+		 */
+		try { 
+			new WebDriverWait(driver,
+					Duration.ofSeconds(timeOut)).until(ExpectedConditions.visibilityOf(element)); 
+		}catch(Exception e) { 
+			System.out.println("Element not found"); 
+		}
 	}
 	
 	public void pageLoadTimeOut(WebDriver driver, int timeOut) {

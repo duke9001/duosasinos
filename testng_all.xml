@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">	
+	<test name="Test home page outsource readmore button on Chrome">
+		<parameter name="browserName" value="Chrome" />
+		<parameter name="author" value="Uditha" />
+		<classes>
+			<class name="com.duosasinos.testcases.HomePageTest">
+				<methods>
+					<include name="TestOutsourceReadmorebutton" />
+				</methods>
+			</class>
+		</classes>
+	</test> <!-- Test -->	
+	<test name="Test home page slider teams readmore button on Chrome">
+		<parameter name="browserName" value="Chrome" />
+		<parameter name="author" value="Uditha" />
+		<classes>
+			<class name="com.duosasinos.testcases.HomePageTest">
+				<methods>
+					<include name="TestSliderTeamsReadmorebutton" />
+				</methods>
+			</class>
+		</classes>
+	</test> <!-- Test -->
+	<test name="Test home page slider services readmore button on Chrome">
+		<parameter name="browserName" value="Chrome" />
+		<parameter name="author" value="Uditha" />
+		<classes>
+			<class name="com.duosasinos.testcases.HomePageTest">
+				<methods>
+					<include name="TestSliderOurServicesReadmorebutton" />
+				</methods>
+			</class>
+		</classes>
+	</test> <!-- Test -->	
+	<test name="Test home page slider duosasinos readmore button on Chrome">
+		<parameter name="browserName" value="Chrome" />
+		<parameter name="author" value="Uditha" />
+		<classes>
+			<class name="com.duosasinos.testcases.HomePageTest">
+				<methods>
+					<include name="TestSliderDuosasinosReadmorebutton" />
+				</methods>
+			</class>
+		</classes>
+	</test> <!-- Test -->	
+	<test name="Test scroll button on Chrome">
+		<parameter name="browserName" value="Chrome" />
+		<parameter name="author" value="Uditha" />
+		<classes>
+			<class name="com.duosasinos.testcases.HomePageTest">
+				<methods>
+					<include name="TestScrollbutton" />
+				</methods>
+			</class>
+		</classes>
+	</test> <!-- Test -->	
+	<test name="Test service page software development readmore button on Chrome">
+		<parameter name="browserName" value="Chrome" />
+		<parameter name="author" value="Uditha" />
+		<classes>
+			<class name="com.duosasinos.testcases.ServicePageTest">
+				<methods>
+					<include name="TestSoftwareDevelopmentReadmorebutton" />
+				</methods>
+			</class>
+		</classes>
+	</test> <!-- Test -->	
+	<test name="Test service page research and algorithms readmore button on Chrome">
+		<parameter name="browserName" value="Chrome" />
+		<parameter name="author" value="Uditha" />
+		<classes>
+			<class name="com.duosasinos.testcases.ServicePageTest">
+				<methods>
+					<include name="TestReseachandAlgorithmsReadmoreButton" />
+				</methods>
+			</class>
+		</classes>
+	</test> <!-- Test -->	
+	<test name="Test service page legacy software readmore button on Chrome">
+		<parameter name="browserName" value="Chrome" />
+		<parameter name="author" value="Uditha" />
+		<classes>
+			<class name="com.duosasinos.testcases.ServicePageTest">
+				<methods>
+					<include name="TestLegacySoftwareReadmoreButton" />
+				</methods>
+			</class>
+		</classes>
+	</test> <!-- Test -->	
+	<test name="Test service page quality assurance readmore button on Chrome">
+		<parameter name="browserName" value="Chrome" />
+		<parameter name="author" value="Uditha" />
+		<classes>
+			<class name="com.duosasinos.testcases.ServicePageTest">
+				<methods>
+					<include name="TestQualityAssuranceReadmoreButton" />
+				</methods>
+			</class>
+		</classes>
+	</test> <!-- Test -->	
+	<test name="Test service page visual design readmore button on Chrome">
+		<parameter name="browserName" value="Chrome" />
+		<parameter name="author" value="Uditha" />
+		<classes>
+			<class name="com.duosasinos.testcases.ServicePageTest">
+				<methods>
+					<include name="TestVisualDesignReadmoreButton" />
+				</methods>
+			</class>
+		</classes>
+	</test> <!-- Test -->
+	<test name="Test service page print design readmore button on Chrome">
+		<parameter name="browserName" value="Chrome" />
+		<parameter name="author" value="Uditha" />
+		<classes>
+			<class name="com.duosasinos.testcases.ServicePageTest">
+				<methods>
+					<include name="TestPrintDesignReadmoreButton" />
+				</methods>
+			</class>
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -7,8 +7,14 @@ import java.awt.Desktop;
 import java.io.File;
 import java.io.IOException;
 import java.lang.reflect.Method;
+import java.text.SimpleDateFormat;
+import java.time.Duration;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
+import java.util.Date;
+import java.util.Properties;
+import java.util.concurrent.TimeUnit;
+
 import org.apache.commons.io.FileUtils;
 import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.Capabilities;
@@ -36,7 +42,6 @@ import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import com.duosasinos.utility.ReadConfig;
 import com.duosasinos.actiondriver.Action;
-import com.duosasinos.actioninterface.ActionInterface;
 
 import freemarker.log.Logger;
 import io.github.bonigarcia.wdm.WebDriverManager;
@@ -52,17 +57,16 @@ public class BaseClass {
 	public static String screenshotsSubFolderName;
 	public static ExtentReports extentReports;
 	public static ExtentTest extentTest;	
-	
+
 	public ReadConfig readConfig = new ReadConfig();
-	
 
 	@Parameters("browserName")
 	@BeforeTest
 	public void setup(ITestContext context, @Optional("chrome") String browserName) {
-		
+
 		//pass Log4j.properties file
 		PropertyConfigurator.configure("Log4j.properties");
-		
+
 		switch (browserName.toLowerCase()) {
 		case "chrome":
 			WebDriverManager.chromedriver().setup();
@@ -81,44 +85,58 @@ public class BaseClass {
 			break;
 		}
 		driver.manage().window().maximize();
+		//Delete all the cookies
+		driver.manage().deleteAllCookies();
+		//Implicit TimeOuts
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5000));
+		//PageLoad TimeOuts
+		driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(5000));
+		
 		Capabilities capabilities = ((RemoteWebDriver) driver).getCapabilities();
-		String device = capabilities.getBrowserName() + " " + capabilities.getVersion().substring(0, capabilities.getVersion().indexOf("."));
+		String device = capabilities.getBrowserName() + " " 
+				+ capabilities.getBrowserVersion().substring(0, capabilities.getBrowserVersion().indexOf("."));
 		String author = context.getCurrentXmlTest().getParameter("author");
 
 		extentTest = extentReports.createTest(context.getName());
 		extentTest.assignAuthor(author);
 		extentTest.assignDevice(device);
 	}
-	
+
 	@AfterTest
 	public void teardown() {
 		driver.quit();
 	}
-	
-	
+
+
 	@BeforeSuite
 	public void initialiseExtentReports() {
-		ExtentSparkReporter sparkReporter_all = new ExtentSparkReporter("AllTests.html");
+		//String timeStamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());//time stamp
+		ExtentSparkReporter sparkReporter_all = new ExtentSparkReporter(System.getProperty("user.dir")
+				+ "/ExternalReports/"+"AllTests.html");
 		sparkReporter_all.config().setReportName("All Tests report");
-		
-		ExtentSparkReporter sparkReporter_failed = new ExtentSparkReporter("FailedTests.html");
+
+		ExtentSparkReporter sparkReporter_failed = new ExtentSparkReporter(System.getProperty("user.dir")
+				+ "/ExternalReports/"+"FailedTests.html");
 		sparkReporter_failed.filter().statusFilter().as(new Status[] {Status.FAIL}).apply();
 		sparkReporter_failed.config().setReportName("Failure report");
-		
+
 		extentReports = new ExtentReports();
 		extentReports.attachReporter(sparkReporter_all, sparkReporter_failed);
-		
+
 		extentReports.setSystemInfo("OS", System.getProperty("os.name"));
 		extentReports.setSystemInfo("Java Version", System.getProperty("java.version"));
 	}
-	
+
 	@AfterSuite
 	public void generateExtentReports() throws Exception {
+		//String timeStamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());//time stamp
 		extentReports.flush();
-		Desktop.getDesktop().browse(new File("AllTests.html").toURI());
-		Desktop.getDesktop().browse(new File("FailedTests.html").toURI());
+		Desktop.getDesktop().browse(new File(System.getProperty("user.dir")
+				+ "/ExternalReports/"+"AllTests.html").toURI());
+		Desktop.getDesktop().browse(new File(System.getProperty("user.dir")
+				+ "/ExternalReports/"+"FailedTests.html").toURI());
 	}
-	
+
 	@AfterMethod
 	public void checkStatus(Method m, ITestResult result) {
 		if(result.getStatus() == ITestResult.FAILURE) {
@@ -129,17 +147,17 @@ public class BaseClass {
 		} else if(result.getStatus() == ITestResult.SUCCESS) {
 			extentTest.pass(m.getName() + " is passed");
 		}
-		
+
 		extentTest.assignCategory(m.getAnnotation(Test.class).groups());
 	}
-	
+
 	public String captureScreenshot(String fileName) {
 		if(screenshotsSubFolderName == null) {
 			LocalDateTime myDateObj = LocalDateTime.now();
-		    DateTimeFormatter myFormatObj = DateTimeFormatter.ofPattern("yyyy.MM.dd.HH.mm.ss");
-		    screenshotsSubFolderName = myDateObj.format(myFormatObj);
+			DateTimeFormatter myFormatObj = DateTimeFormatter.ofPattern("yyyy.MM.dd.HH.mm.ss");
+			screenshotsSubFolderName = myDateObj.format(myFormatObj);
 		}
-		
+
 		TakesScreenshot takesScreenshot = (TakesScreenshot) driver;
 		File sourceFile = takesScreenshot.getScreenshotAs(OutputType.FILE);
 		File destFile = new File("./Screenshots/"+ screenshotsSubFolderName+"/"+fileName);
@@ -151,5 +169,5 @@ public class BaseClass {
 		System.out.println("Screenshot saved successfully");
 		return destFile.getAbsolutePath();
 	}
-	
+
 }

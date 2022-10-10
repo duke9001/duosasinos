@@ -1,24 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="51" total="61" passed="10" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-10-05T11:42:13 IST" name="Suite" finished-at="2022-10-05T11:42:26 IST" duration-ms="13414">
+  <suite started-at="2022-10-07T21:18:43 IST" name="Suite" finished-at="2022-10-07T21:20:32 IST" duration-ms="108905">
     <groups>
+      <group name="regression">
+        <method signature="HomePageTest.TestOutsourceReadmorebutton()[pri:0, instance:com.duosasinos.testcases.HomePageTest@747ddf94]" name="TestOutsourceReadmorebutton" class="com.duosasinos.testcases.HomePageTest"/>
+        <method signature="HomePageTest.TestSliderTeamsReadmorebutton()[pri:0, instance:com.duosasinos.testcases.HomePageTest@33d512c1]" name="TestSliderTeamsReadmorebutton" class="com.duosasinos.testcases.HomePageTest"/>
+        <method signature="HomePageTest.TestSliderOurServicesReadmorebutton()[pri:0, instance:com.duosasinos.testcases.HomePageTest@765d7657]" name="TestSliderOurServicesReadmorebutton" class="com.duosasinos.testcases.HomePageTest"/>
+        <method signature="HomePageTest.TestSliderDuosasinosReadmorebutton()[pri:0, instance:com.duosasinos.testcases.HomePageTest@5e0e82ae]" name="TestSliderDuosasinosReadmorebutton" class="com.duosasinos.testcases.HomePageTest"/>
+        <method signature="HomePageTest.TestScrollbutton()[pri:0, instance:com.duosasinos.testcases.HomePageTest@2b71e916]" name="TestScrollbutton" class="com.duosasinos.testcases.HomePageTest"/>
+        <method signature="ServicePageTest.TestReseachandAlgorithmsReadmoreButton()[pri:0, instance:com.duosasinos.testcases.ServicePageTest@206a70ef]" name="TestReseachandAlgorithmsReadmoreButton" class="com.duosasinos.testcases.ServicePageTest"/>
+        <method signature="ServicePageTest.TestLegacySoftwareReadmoreButton()[pri:0, instance:com.duosasinos.testcases.ServicePageTest@34e9fd99]" name="TestLegacySoftwareReadmoreButton" class="com.duosasinos.testcases.ServicePageTest"/>
+        <method signature="ServicePageTest.TestQualityAssuranceReadmoreButton()[pri:0, instance:com.duosasinos.testcases.ServicePageTest@702657cc]" name="TestQualityAssuranceReadmoreButton" class="com.duosasinos.testcases.ServicePageTest"/>
+        <method signature="ServicePageTest.TestVisualDesignReadmoreButton()[pri:0, instance:com.duosasinos.testcases.ServicePageTest@2d1ef81a]" name="TestVisualDesignReadmoreButton" class="com.duosasinos.testcases.ServicePageTest"/>
+        <method signature="ServicePageTest.TestPrintDesignReadmoreButton()[pri:0, instance:com.duosasinos.testcases.ServicePageTest@4c12331b]" name="TestPrintDesignReadmoreButton" class="com.duosasinos.testcases.ServicePageTest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="HomePageTest.TestOutsourceReadmorebutton()[pri:0, instance:com.duosasinos.testcases.HomePageTest@747ddf94]" name="TestOutsourceReadmorebutton" class="com.duosasinos.testcases.HomePageTest"/>
+        <method signature="ServicePageTest.TestReseachandAlgorithmsReadmoreButton()[pri:0, instance:com.duosasinos.testcases.ServicePageTest@206a70ef]" name="TestReseachandAlgorithmsReadmoreButton" class="com.duosasinos.testcases.ServicePageTest"/>
+        <method signature="ServicePageTest.TestLegacySoftwareReadmoreButton()[pri:0, instance:com.duosasinos.testcases.ServicePageTest@34e9fd99]" name="TestLegacySoftwareReadmoreButton" class="com.duosasinos.testcases.ServicePageTest"/>
+        <method signature="ServicePageTest.TestQualityAssuranceReadmoreButton()[pri:0, instance:com.duosasinos.testcases.ServicePageTest@702657cc]" name="TestQualityAssuranceReadmoreButton" class="com.duosasinos.testcases.ServicePageTest"/>
+        <method signature="ServicePageTest.TestVisualDesignReadmoreButton()[pri:0, instance:com.duosasinos.testcases.ServicePageTest@2d1ef81a]" name="TestVisualDesignReadmoreButton" class="com.duosasinos.testcases.ServicePageTest"/>
+        <method signature="ServicePageTest.TestPrintDesignReadmoreButton()[pri:0, instance:com.duosasinos.testcases.ServicePageTest@4c12331b]" name="TestPrintDesignReadmoreButton" class="com.duosasinos.testcases.ServicePageTest"/>
+      </group> <!-- smoke -->
       <group name="sanity">
-        <method signature="HomePageTest.TestOutsourceReadmorebutton()[pri:0, instance:com.duosasinos.testcases.HomePageTest@c8c12ac]" name="TestOutsourceReadmorebutton" class="com.duosasinos.testcases.HomePageTest"/>
+        <method signature="HomePageTest.TestOutsourceReadmorebutton()[pri:0, instance:com.duosasinos.testcases.HomePageTest@747ddf94]" name="TestOutsourceReadmorebutton" class="com.duosasinos.testcases.HomePageTest"/>
+        <method signature="ServicePageTest.TestReseachandAlgorithmsReadmoreButton()[pri:0, instance:com.duosasinos.testcases.ServicePageTest@206a70ef]" name="TestReseachandAlgorithmsReadmoreButton" class="com.duosasinos.testcases.ServicePageTest"/>
+        <method signature="ServicePageTest.TestLegacySoftwareReadmoreButton()[pri:0, instance:com.duosasinos.testcases.ServicePageTest@34e9fd99]" name="TestLegacySoftwareReadmoreButton" class="com.duosasinos.testcases.ServicePageTest"/>
+        <method signature="ServicePageTest.TestQualityAssuranceReadmoreButton()[pri:0, instance:com.duosasinos.testcases.ServicePageTest@702657cc]" name="TestQualityAssuranceReadmoreButton" class="com.duosasinos.testcases.ServicePageTest"/>
+        <method signature="ServicePageTest.TestVisualDesignReadmoreButton()[pri:0, instance:com.duosasinos.testcases.ServicePageTest@2d1ef81a]" name="TestVisualDesignReadmoreButton" class="com.duosasinos.testcases.ServicePageTest"/>
+        <method signature="ServicePageTest.TestPrintDesignReadmoreButton()[pri:0, instance:com.duosasinos.testcases.ServicePageTest@4c12331b]" name="TestPrintDesignReadmoreButton" class="com.duosasinos.testcases.ServicePageTest"/>
       </group> <!-- sanity -->
     </groups>
-    <test started-at="2022-10-05T11:42:13 IST" name="Test home page outsource readmore button" finished-at="2022-10-05T11:42:26 IST" duration-ms="13414">
+    <test started-at="2022-10-07T21:18:43 IST" name="Test home page outsource readmore button on Chrome" finished-at="2022-10-07T21:18:56 IST" duration-ms="13625">
       <class name="com.duosasinos.testcases.HomePageTest">
-        <test-method is-config="true" signature="initialiseExtentReports()[pri:0, instance:com.duosasinos.testcases.HomePageTest@c8c12ac]" started-at="2022-10-05T11:42:12 IST" name="initialiseExtentReports" finished-at="2022-10-05T11:42:13 IST" duration-ms="414" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initialiseExtentReports -->
-        <test-method is-config="true" signature="setup(org.testng.ITestContext,java.lang.String)[pri:0, instance:com.duosasinos.testcases.HomePageTest@c8c12ac]" started-at="2022-10-05T11:42:13 IST" name="setup" finished-at="2022-10-05T11:42:17 IST" duration-ms="3976" status="PASS">
+        <test-method is-config="true" signature="setup(org.testng.ITestContext,java.lang.String)[pri:0, instance:com.duosasinos.testcases.HomePageTest@747ddf94]" started-at="2022-10-07T21:18:43 IST" name="setup" finished-at="2022-10-07T21:18:47 IST" duration-ms="4275" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@2b148329]]>
+                <![CDATA[org.testng.TestRunner@2e0516a3]]>
               </value>
             </param>
             <param index="1">
@@ -30,11 +51,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="TestOutsourceReadmorebutton()[pri:0, instance:com.duosasinos.testcases.HomePageTest@c8c12ac]" started-at="2022-10-05T11:42:17 IST" name="TestOutsourceReadmorebutton" finished-at="2022-10-05T11:42:25 IST" duration-ms="8566" status="PASS">
+        <test-method signature="TestOutsourceReadmorebutton()[pri:0, instance:com.duosasinos.testcases.HomePageTest@747ddf94]" started-at="2022-10-07T21:18:47 IST" name="TestOutsourceReadmorebutton" finished-at="2022-10-07T21:18:56 IST" duration-ms="8955" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestOutsourceReadmorebutton -->
-        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.duosasinos.testcases.HomePageTest@c8c12ac]" started-at="2022-10-05T11:42:25 IST" name="checkStatus" finished-at="2022-10-05T11:42:25 IST" duration-ms="12" status="PASS">
+        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.duosasinos.testcases.HomePageTest@747ddf94]" started-at="2022-10-07T21:18:56 IST" name="checkStatus" finished-at="2022-10-07T21:18:56 IST" duration-ms="4" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -43,22 +64,446 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[[TestResult name=TestOutsourceReadmorebutton status=SUCCESS method=HomePageTest.TestOutsourceReadmorebutton()[pri:0, instance:com.duosasinos.testcases.HomePageTest@c8c12ac] output={null}]]]>
+                <![CDATA[[TestResult name=TestOutsourceReadmorebutton status=SUCCESS method=HomePageTest.TestOutsourceReadmorebutton()[pri:0, instance:com.duosasinos.testcases.HomePageTest@747ddf94] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkStatus -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.duosasinos.testcases.HomePageTest@c8c12ac]" started-at="2022-10-05T11:42:25 IST" name="teardown" finished-at="2022-10-05T11:42:26 IST" duration-ms="816" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.duosasinos.testcases.HomePageTest@747ddf94]" started-at="2022-10-07T21:18:56 IST" name="teardown" finished-at="2022-10-07T21:18:56 IST" duration-ms="324" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="generateExtentReports()[pri:0, instance:com.duosasinos.testcases.HomePageTest@c8c12ac]" started-at="2022-10-05T11:42:26 IST" name="generateExtentReports" finished-at="2022-10-05T11:42:28 IST" duration-ms="1600" status="PASS">
+      </class> <!-- com.duosasinos.testcases.HomePageTest -->
+    </test> <!-- Test home page outsource readmore button on Chrome -->
+    <test started-at="2022-10-07T21:18:56 IST" name="Test home page slider teams readmore button on Chrome" finished-at="2022-10-07T21:19:20 IST" duration-ms="23243">
+      <class name="com.duosasinos.testcases.HomePageTest">
+        <test-method is-config="true" signature="setup(org.testng.ITestContext,java.lang.String)[pri:0, instance:com.duosasinos.testcases.HomePageTest@33d512c1]" started-at="2022-10-07T21:18:56 IST" name="setup" finished-at="2022-10-07T21:18:58 IST" duration-ms="1263" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@26aee0a6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TestSliderTeamsReadmorebutton()[pri:0, instance:com.duosasinos.testcases.HomePageTest@33d512c1]" started-at="2022-10-07T21:18:58 IST" name="TestSliderTeamsReadmorebutton" finished-at="2022-10-07T21:19:19 IST" duration-ms="21513" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestSliderTeamsReadmorebutton -->
+        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.duosasinos.testcases.HomePageTest@33d512c1]" started-at="2022-10-07T21:19:19 IST" name="checkStatus" finished-at="2022-10-07T21:19:19 IST" duration-ms="10" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.duosasinos.testcases.HomePageTest.TestSliderTeamsReadmorebutton() throws java.lang.Throwable]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=TestSliderTeamsReadmorebutton status=SUCCESS method=HomePageTest.TestSliderTeamsReadmorebutton()[pri:0, instance:com.duosasinos.testcases.HomePageTest@33d512c1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.duosasinos.testcases.HomePageTest@33d512c1]" started-at="2022-10-07T21:19:19 IST" name="teardown" finished-at="2022-10-07T21:19:20 IST" duration-ms="452" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.duosasinos.testcases.HomePageTest -->
+    </test> <!-- Test home page slider teams readmore button on Chrome -->
+    <test started-at="2022-10-07T21:19:20 IST" name="Test home page slider services readmore button on Chrome" finished-at="2022-10-07T21:19:37 IST" duration-ms="17550">
+      <class name="com.duosasinos.testcases.HomePageTest">
+        <test-method is-config="true" signature="setup(org.testng.ITestContext,java.lang.String)[pri:0, instance:com.duosasinos.testcases.HomePageTest@765d7657]" started-at="2022-10-07T21:19:20 IST" name="setup" finished-at="2022-10-07T21:19:23 IST" duration-ms="3348" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@20184ade]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TestSliderOurServicesReadmorebutton()[pri:0, instance:com.duosasinos.testcases.HomePageTest@765d7657]" started-at="2022-10-07T21:19:23 IST" name="TestSliderOurServicesReadmorebutton" finished-at="2022-10-07T21:19:37 IST" duration-ms="13864" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestSliderOurServicesReadmorebutton -->
+        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.duosasinos.testcases.HomePageTest@765d7657]" started-at="2022-10-07T21:19:37 IST" name="checkStatus" finished-at="2022-10-07T21:19:37 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.duosasinos.testcases.HomePageTest.TestSliderOurServicesReadmorebutton() throws java.lang.Throwable]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=TestSliderOurServicesReadmorebutton status=SUCCESS method=HomePageTest.TestSliderOurServicesReadmorebutton()[pri:0, instance:com.duosasinos.testcases.HomePageTest@765d7657] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.duosasinos.testcases.HomePageTest@765d7657]" started-at="2022-10-07T21:19:37 IST" name="teardown" finished-at="2022-10-07T21:19:37 IST" duration-ms="332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.duosasinos.testcases.HomePageTest -->
+    </test> <!-- Test home page slider services readmore button on Chrome -->
+    <test started-at="2022-10-07T21:19:37 IST" name="Test home page slider duosasinos readmore button on Chrome" finished-at="2022-10-07T21:19:45 IST" duration-ms="8228">
+      <class name="com.duosasinos.testcases.HomePageTest">
+        <test-method is-config="true" signature="setup(org.testng.ITestContext,java.lang.String)[pri:0, instance:com.duosasinos.testcases.HomePageTest@5e0e82ae]" started-at="2022-10-07T21:19:37 IST" name="setup" finished-at="2022-10-07T21:19:38 IST" duration-ms="1225" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@35fb3209]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TestSliderDuosasinosReadmorebutton()[pri:0, instance:com.duosasinos.testcases.HomePageTest@5e0e82ae]" started-at="2022-10-07T21:19:38 IST" name="TestSliderDuosasinosReadmorebutton" finished-at="2022-10-07T21:19:45 IST" duration-ms="6706" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestSliderDuosasinosReadmorebutton -->
+        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.duosasinos.testcases.HomePageTest@5e0e82ae]" started-at="2022-10-07T21:19:45 IST" name="checkStatus" finished-at="2022-10-07T21:19:45 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.duosasinos.testcases.HomePageTest.TestSliderDuosasinosReadmorebutton() throws java.lang.Throwable]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=TestSliderDuosasinosReadmorebutton status=SUCCESS method=HomePageTest.TestSliderDuosasinosReadmorebutton()[pri:0, instance:com.duosasinos.testcases.HomePageTest@5e0e82ae] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.duosasinos.testcases.HomePageTest@5e0e82ae]" started-at="2022-10-07T21:19:45 IST" name="teardown" finished-at="2022-10-07T21:19:45 IST" duration-ms="293" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.duosasinos.testcases.HomePageTest -->
+    </test> <!-- Test home page slider duosasinos readmore button on Chrome -->
+    <test started-at="2022-10-07T21:19:45 IST" name="Test scroll button on Chrome" finished-at="2022-10-07T21:19:53 IST" duration-ms="7662">
+      <class name="com.duosasinos.testcases.HomePageTest">
+        <test-method is-config="true" signature="setup(org.testng.ITestContext,java.lang.String)[pri:0, instance:com.duosasinos.testcases.HomePageTest@2b71e916]" started-at="2022-10-07T21:19:45 IST" name="setup" finished-at="2022-10-07T21:19:47 IST" duration-ms="1159" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5855b0ed]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TestScrollbutton()[pri:0, instance:com.duosasinos.testcases.HomePageTest@2b71e916]" started-at="2022-10-07T21:19:47 IST" name="TestScrollbutton" finished-at="2022-10-07T21:19:53 IST" duration-ms="6208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestScrollbutton -->
+        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.duosasinos.testcases.HomePageTest@2b71e916]" started-at="2022-10-07T21:19:53 IST" name="checkStatus" finished-at="2022-10-07T21:19:53 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.duosasinos.testcases.HomePageTest.TestScrollbutton() throws java.lang.Throwable]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=TestScrollbutton status=SUCCESS method=HomePageTest.TestScrollbutton()[pri:0, instance:com.duosasinos.testcases.HomePageTest@2b71e916] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.duosasinos.testcases.HomePageTest@2b71e916]" started-at="2022-10-07T21:19:53 IST" name="teardown" finished-at="2022-10-07T21:19:53 IST" duration-ms="287" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.duosasinos.testcases.HomePageTest -->
+    </test> <!-- Test scroll button on Chrome -->
+    <test started-at="2022-10-07T21:19:53 IST" name="Test service page software development readmore button on Chrome" finished-at="2022-10-07T21:19:55 IST" duration-ms="1549">
+      <class name="com.duosasinos.testcases.ServicePageTest">
+        <test-method is-config="true" signature="setup(org.testng.ITestContext,java.lang.String)[pri:0, instance:com.duosasinos.testcases.ServicePageTest@557caf28]" started-at="2022-10-07T21:19:53 IST" name="setup" finished-at="2022-10-07T21:19:54 IST" duration-ms="1306" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@92fd091]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.duosasinos.testcases.ServicePageTest@557caf28]" started-at="2022-10-07T21:19:54 IST" name="teardown" finished-at="2022-10-07T21:19:55 IST" duration-ms="242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.duosasinos.testcases.ServicePageTest -->
+    </test> <!-- Test service page software development readmore button on Chrome -->
+    <test started-at="2022-10-07T21:19:55 IST" name="Test service page research and algorithms readmore button on Chrome" finished-at="2022-10-07T21:20:03 IST" duration-ms="8053">
+      <class name="com.duosasinos.testcases.ServicePageTest">
+        <test-method is-config="true" signature="setup(org.testng.ITestContext,java.lang.String)[pri:0, instance:com.duosasinos.testcases.ServicePageTest@206a70ef]" started-at="2022-10-07T21:19:55 IST" name="setup" finished-at="2022-10-07T21:19:56 IST" duration-ms="1148" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6b0325d0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TestReseachandAlgorithmsReadmoreButton()[pri:0, instance:com.duosasinos.testcases.ServicePageTest@206a70ef]" started-at="2022-10-07T21:19:56 IST" name="TestReseachandAlgorithmsReadmoreButton" finished-at="2022-10-07T21:20:02 IST" duration-ms="6581" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestReseachandAlgorithmsReadmoreButton -->
+        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.duosasinos.testcases.ServicePageTest@206a70ef]" started-at="2022-10-07T21:20:02 IST" name="checkStatus" finished-at="2022-10-07T21:20:02 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.duosasinos.testcases.ServicePageTest.TestReseachandAlgorithmsReadmoreButton() throws java.lang.Throwable]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=TestReseachandAlgorithmsReadmoreButton status=SUCCESS method=ServicePageTest.TestReseachandAlgorithmsReadmoreButton()[pri:0, instance:com.duosasinos.testcases.ServicePageTest@206a70ef] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.duosasinos.testcases.ServicePageTest@206a70ef]" started-at="2022-10-07T21:20:02 IST" name="teardown" finished-at="2022-10-07T21:20:03 IST" duration-ms="318" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.duosasinos.testcases.ServicePageTest -->
+    </test> <!-- Test service page research and algorithms readmore button on Chrome -->
+    <test started-at="2022-10-07T21:20:03 IST" name="Test service page legacy software readmore button on Chrome" finished-at="2022-10-07T21:20:08 IST" duration-ms="5723">
+      <class name="com.duosasinos.testcases.ServicePageTest">
+        <test-method is-config="true" signature="setup(org.testng.ITestContext,java.lang.String)[pri:0, instance:com.duosasinos.testcases.ServicePageTest@34e9fd99]" started-at="2022-10-07T21:20:03 IST" name="setup" finished-at="2022-10-07T21:20:04 IST" duration-ms="1234" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@70439c3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TestLegacySoftwareReadmoreButton()[pri:0, instance:com.duosasinos.testcases.ServicePageTest@34e9fd99]" started-at="2022-10-07T21:20:04 IST" name="TestLegacySoftwareReadmoreButton" finished-at="2022-10-07T21:20:08 IST" duration-ms="4166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestLegacySoftwareReadmoreButton -->
+        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.duosasinos.testcases.ServicePageTest@34e9fd99]" started-at="2022-10-07T21:20:08 IST" name="checkStatus" finished-at="2022-10-07T21:20:08 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.duosasinos.testcases.ServicePageTest.TestLegacySoftwareReadmoreButton() throws java.lang.Throwable]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=TestLegacySoftwareReadmoreButton status=SUCCESS method=ServicePageTest.TestLegacySoftwareReadmoreButton()[pri:0, instance:com.duosasinos.testcases.ServicePageTest@34e9fd99] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.duosasinos.testcases.ServicePageTest@34e9fd99]" started-at="2022-10-07T21:20:08 IST" name="teardown" finished-at="2022-10-07T21:20:08 IST" duration-ms="320" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.duosasinos.testcases.ServicePageTest -->
+    </test> <!-- Test service page legacy software readmore button on Chrome -->
+    <test started-at="2022-10-07T21:20:09 IST" name="Test service page quality assurance readmore button on Chrome" finished-at="2022-10-07T21:20:16 IST" duration-ms="7176">
+      <class name="com.duosasinos.testcases.ServicePageTest">
+        <test-method is-config="true" signature="setup(org.testng.ITestContext,java.lang.String)[pri:0, instance:com.duosasinos.testcases.ServicePageTest@702657cc]" started-at="2022-10-07T21:20:09 IST" name="setup" finished-at="2022-10-07T21:20:10 IST" duration-ms="1107" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@72a33316]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TestQualityAssuranceReadmoreButton()[pri:0, instance:com.duosasinos.testcases.ServicePageTest@702657cc]" started-at="2022-10-07T21:20:10 IST" name="TestQualityAssuranceReadmoreButton" finished-at="2022-10-07T21:20:15 IST" duration-ms="5656" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestQualityAssuranceReadmoreButton -->
+        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.duosasinos.testcases.ServicePageTest@702657cc]" started-at="2022-10-07T21:20:15 IST" name="checkStatus" finished-at="2022-10-07T21:20:15 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.duosasinos.testcases.ServicePageTest.TestQualityAssuranceReadmoreButton() throws java.lang.Throwable]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=TestQualityAssuranceReadmoreButton status=SUCCESS method=ServicePageTest.TestQualityAssuranceReadmoreButton()[pri:0, instance:com.duosasinos.testcases.ServicePageTest@702657cc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.duosasinos.testcases.ServicePageTest@702657cc]" started-at="2022-10-07T21:20:15 IST" name="teardown" finished-at="2022-10-07T21:20:16 IST" duration-ms="405" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.duosasinos.testcases.ServicePageTest -->
+    </test> <!-- Test service page quality assurance readmore button on Chrome -->
+    <test started-at="2022-10-07T21:20:16 IST" name="Test service page visual design readmore button on Chrome" finished-at="2022-10-07T21:20:24 IST" duration-ms="8754">
+      <class name="com.duosasinos.testcases.ServicePageTest">
+        <test-method is-config="true" signature="setup(org.testng.ITestContext,java.lang.String)[pri:0, instance:com.duosasinos.testcases.ServicePageTest@2d1ef81a]" started-at="2022-10-07T21:20:16 IST" name="setup" finished-at="2022-10-07T21:20:17 IST" duration-ms="1212" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@57fce8b]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TestVisualDesignReadmoreButton()[pri:0, instance:com.duosasinos.testcases.ServicePageTest@2d1ef81a]" started-at="2022-10-07T21:20:17 IST" name="TestVisualDesignReadmoreButton" finished-at="2022-10-07T21:20:24 IST" duration-ms="7195" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestVisualDesignReadmoreButton -->
+        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.duosasinos.testcases.ServicePageTest@2d1ef81a]" started-at="2022-10-07T21:20:24 IST" name="checkStatus" finished-at="2022-10-07T21:20:24 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.duosasinos.testcases.ServicePageTest.TestVisualDesignReadmoreButton() throws java.lang.Throwable]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=TestVisualDesignReadmoreButton status=SUCCESS method=ServicePageTest.TestVisualDesignReadmoreButton()[pri:0, instance:com.duosasinos.testcases.ServicePageTest@2d1ef81a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.duosasinos.testcases.ServicePageTest@2d1ef81a]" started-at="2022-10-07T21:20:24 IST" name="teardown" finished-at="2022-10-07T21:20:24 IST" duration-ms="343" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.duosasinos.testcases.ServicePageTest -->
+    </test> <!-- Test service page visual design readmore button on Chrome -->
+    <test started-at="2022-10-07T21:20:24 IST" name="Test service page print design readmore button on Chrome" finished-at="2022-10-07T21:20:32 IST" duration-ms="7153">
+      <class name="com.duosasinos.testcases.ServicePageTest">
+        <test-method is-config="true" signature="initialiseExtentReports()[pri:0, instance:com.duosasinos.testcases.ServicePageTest@4c12331b]" started-at="2022-10-07T21:18:42 IST" name="initialiseExtentReports" finished-at="2022-10-07T21:18:43 IST" duration-ms="440" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialiseExtentReports -->
+        <test-method is-config="true" signature="setup(org.testng.ITestContext,java.lang.String)[pri:0, instance:com.duosasinos.testcases.ServicePageTest@4c12331b]" started-at="2022-10-07T21:20:24 IST" name="setup" finished-at="2022-10-07T21:20:26 IST" duration-ms="1301" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@77204651]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TestPrintDesignReadmoreButton()[pri:0, instance:com.duosasinos.testcases.ServicePageTest@4c12331b]" started-at="2022-10-07T21:20:26 IST" name="TestPrintDesignReadmoreButton" finished-at="2022-10-07T21:20:31 IST" duration-ms="5520" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestPrintDesignReadmoreButton -->
+        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.duosasinos.testcases.ServicePageTest@4c12331b]" started-at="2022-10-07T21:20:31 IST" name="checkStatus" finished-at="2022-10-07T21:20:31 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.duosasinos.testcases.ServicePageTest.TestPrintDesignReadmoreButton() throws java.lang.Throwable]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=TestPrintDesignReadmoreButton status=SUCCESS method=ServicePageTest.TestPrintDesignReadmoreButton()[pri:0, instance:com.duosasinos.testcases.ServicePageTest@4c12331b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.duosasinos.testcases.ServicePageTest@4c12331b]" started-at="2022-10-07T21:20:31 IST" name="teardown" finished-at="2022-10-07T21:20:32 IST" duration-ms="327" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="generateExtentReports()[pri:0, instance:com.duosasinos.testcases.ServicePageTest@4c12331b]" started-at="2022-10-07T21:20:32 IST" name="generateExtentReports" finished-at="2022-10-07T21:20:33 IST" duration-ms="1763" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateExtentReports -->
-      </class> <!-- com.duosasinos.testcases.HomePageTest -->
-    </test> <!-- Test home page outsource readmore button -->
+      </class> <!-- com.duosasinos.testcases.ServicePageTest -->
+    </test> <!-- Test service page print design readmore button on Chrome -->
   </suite> <!-- Suite -->
 </testng-results>

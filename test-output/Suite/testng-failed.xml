@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Test home page outsource readmore button(failed)">
+  <test thread-count="5" name="Test software development readmore button on Chrome(failed)">
     <parameter name="author" value="Uditha"/>
-    <parameter name="browserName" value="Firefox"/>
+    <parameter name="browserName" value="Chrome"/>
     <classes>
-      <class name="com.duosasinos.testcases.HomePageTest">
+      <class name="com.duosasinos.testcases.ServicePageTest">
         <methods>
+          <include name="TestSoftwareDevelopmentReadmorebutton"/>
           <include name="generateExtentReports"/>
           <include name="checkStatus"/>
           <include name="initialiseExtentReports"/>
-          <include name="TestOutsourceReadmorebutton"/>
           <include name="teardown"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- com.duosasinos.testcases.HomePageTest -->
+      </class> <!-- com.duosasinos.testcases.ServicePageTest -->
     </classes>
-  </test> <!-- Test home page outsource readmore button(failed) -->
+  </test> <!-- Test software development readmore button on Chrome(failed) -->
 </suite> <!-- Failed suite [Suite] -->

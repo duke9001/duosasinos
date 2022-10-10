@@ -13,13 +13,16 @@ import com.duosasinos.base.BaseClass;
  *
  */
 public class Outsource extends BaseClass{
-	 
-	
+
+	private Action action = new Action();
+
 	public Outsource() {
 		PageFactory.initElements(driver, this);
 	}
-	/*
-	 * public String getCurrURL() throws Throwable { String
-	 * outsourcePageURL=action.getCurrentURL(driver); return outsourcePageURL; }
-	 */
+
+	public String getCurrURL() throws Throwable {
+		String outsourcePageURL=action.getCurrentURL(driver); 
+		return outsourcePageURL; 
+	}
+
 }
