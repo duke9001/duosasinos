@@ -15,6 +15,7 @@ import java.util.Date;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
+
 import org.apache.commons.io.FileUtils;
 import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.Capabilities;
@@ -61,7 +62,7 @@ public class BaseClass {
 	public ReadConfig readConfig = new ReadConfig();
 
 	@Parameters("browserName")
-	@BeforeTest
+	@BeforeTest(alwaysRun = true)
 	public void setup(ITestContext context, @Optional("chrome") String browserName) {
 
 		//pass Log4j.properties file
@@ -102,13 +103,13 @@ public class BaseClass {
 		extentTest.assignDevice(device);
 	}
 
-	@AfterTest
+	@AfterTest(alwaysRun = true)
 	public void teardown() {
 		driver.quit();
 	}
 
 
-	@BeforeSuite
+	@BeforeSuite(alwaysRun = true)
 	public void initialiseExtentReports() {
 		//String timeStamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());//time stamp
 		ExtentSparkReporter sparkReporter_all = new ExtentSparkReporter(System.getProperty("user.dir")
@@ -127,7 +128,7 @@ public class BaseClass {
 		extentReports.setSystemInfo("Java Version", System.getProperty("java.version"));
 	}
 
-	@AfterSuite
+	@AfterSuite(alwaysRun = true)
 	public void generateExtentReports() throws Exception {
 		//String timeStamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());//time stamp
 		extentReports.flush();

@@ -15,7 +15,7 @@ public class HomePageTest extends BaseClass{
 	
 	private Home home;		
 
-	@Test(testName = "Test outsource readmore button", groups = {"sanity","regression","smoke"})
+	@Test(testName = "Test outsource readmore button", groups = {"Smoke", "Sanity", "Regression"})
 	public void TestOutsourceReadmorebutton() throws Throwable {
 		
 		home = new Home();
@@ -32,7 +32,7 @@ public class HomePageTest extends BaseClass{
 		extentTest.pass("Verifying if user is able to login to outsource page");
 	}
 	
-	@Test(testName = "Test slider teams readmore button", groups = {"regression"})
+	@Test(testName = "Test slider teams readmore button", groups = {"Smoke"})
 	public void TestSliderTeamsReadmorebutton() throws Throwable {
 		
 		home = new Home();
@@ -50,7 +50,7 @@ public class HomePageTest extends BaseClass{
 		
 	}
 	
-	@Test(testName = "Test slider our services readmore button", groups = {"regression"})
+	@Test(testName = "Test slider our services readmore button", groups = {"Smoke"})
 	public void TestSliderOurServicesReadmorebutton() throws Throwable {
 		
 		home = new Home();
@@ -68,7 +68,7 @@ public class HomePageTest extends BaseClass{
 		
 	}
 	
-	@Test(testName = "Test slider duosasinos readmore button", groups = {"regression"})
+	@Test(testName = "Test slider duosasinos readmore button", groups = {"Smoke"})
 	public void TestSliderDuosasinosReadmorebutton() throws Throwable {
 		
 		home = new Home();
@@ -84,7 +84,7 @@ public class HomePageTest extends BaseClass{
 		
 	}
 	
-	@Test(testName = "Test slider duosasinos readmore button", groups = {"regression"})
+	@Test(testName = "Test slider duosasinos readmore button", groups = {"Smoke"})
 	public void TestScrollbutton() throws Throwable {
 		
 		home = new Home();

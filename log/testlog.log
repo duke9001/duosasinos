@@ -258,3 +258,163 @@
 2022-10-07 21:20:24,594 - com.duosasinos.utility.Log -INFO - click visual design readmore button
 2022-10-07 21:20:29,926 - com.duosasinos.utility.Log -INFO - =====================================verify print design readmore button TEST START=========================================
 2022-10-07 21:20:31,802 - com.duosasinos.utility.Log -INFO - click print design readmore button
+2022-10-10 11:17:51,785 - com.duosasinos.utility.Log -INFO - =====================================verify home outsource readmore button TEST START=========================================
+2022-10-10 11:17:59,902 - com.duosasinos.utility.Log -INFO - click outsource readmore button
+2022-10-10 11:29:32,001 - com.duosasinos.utility.Log -INFO - =====================================verify home outsource readmore button TEST START=========================================
+2022-10-10 11:30:07,072 - com.duosasinos.utility.Log -INFO - =====================================verify home outsource readmore button TEST START=========================================
+2022-10-10 11:30:09,604 - com.duosasinos.utility.Log -INFO - click outsource readmore button
+2022-10-10 11:30:42,700 - com.duosasinos.utility.Log -INFO - =====================================verify home outsource readmore button TEST START=========================================
+2022-10-10 11:30:45,408 - com.duosasinos.utility.Log -INFO - click outsource readmore button
+2022-10-10 11:30:46,797 - com.duosasinos.utility.Log -INFO - =====================================verify scroll button TEST START=========================================
+2022-10-10 11:30:47,110 - com.duosasinos.utility.Log -INFO - go to footer
+2022-10-10 11:30:48,022 - com.duosasinos.utility.Log -INFO - click on scroll Button
+2022-10-10 11:30:48,474 - com.duosasinos.utility.Log -INFO - go to header
+2022-10-10 11:30:49,777 - com.duosasinos.utility.Log -INFO - =====================================verify home slider duosasinos readmore button TEST START=========================================
+2022-10-10 11:30:51,125 - com.duosasinos.utility.Log -INFO - click slider Duosasinos readmore button
+2022-10-10 11:30:53,835 - com.duosasinos.utility.Log -INFO - =====================================verify home slider team readmore button TEST START=========================================
+2022-10-10 11:31:04,589 - com.duosasinos.utility.Log -INFO - click slider our services readmore button
+2022-10-10 11:31:06,810 - com.duosasinos.utility.Log -INFO - =====================================verify home slider team readmore button TEST START=========================================
+2022-10-10 11:31:28,506 - com.duosasinos.utility.Log -INFO - click slider team readmore button
+2022-10-10 11:53:02,342 - com.duosasinos.utility.Log -INFO - =====================================verify home outsource readmore button TEST START=========================================
+2022-10-10 11:53:05,637 - com.duosasinos.utility.Log -INFO - click outsource readmore button
+2022-10-10 11:53:12,705 - com.duosasinos.utility.Log -INFO - =====================================verify home slider team readmore button TEST START=========================================
+2022-10-10 11:53:31,944 - com.duosasinos.utility.Log -INFO - click slider team readmore button
+2022-10-10 11:53:46,148 - com.duosasinos.utility.Log -INFO - =====================================verify home slider team readmore button TEST START=========================================
+2022-10-10 11:53:55,551 - com.duosasinos.utility.Log -INFO - click slider our services readmore button
+2022-10-10 11:54:02,632 - com.duosasinos.utility.Log -INFO - =====================================verify home slider duosasinos readmore button TEST START=========================================
+2022-10-10 11:54:03,387 - com.duosasinos.utility.Log -INFO - click slider Duosasinos readmore button
+2022-10-10 11:54:08,223 - com.duosasinos.utility.Log -INFO - =====================================verify scroll button TEST START=========================================
+2022-10-10 11:54:08,639 - com.duosasinos.utility.Log -INFO - go to footer
+2022-10-10 11:54:09,030 - com.duosasinos.utility.Log -INFO - click on scroll Button
+2022-10-10 11:54:09,251 - com.duosasinos.utility.Log -INFO - go to header
+2022-10-10 11:54:16,698 - com.duosasinos.utility.Log -INFO - =====================================verify research and algorithm readmore button TEST START=========================================
+2022-10-10 11:54:23,933 - com.duosasinos.utility.Log -INFO - click research and algorithm readmore button
+2022-10-10 11:54:29,575 - com.duosasinos.utility.Log -INFO - =====================================verify research and algorithm readmore button TEST START=========================================
+2022-10-10 11:54:32,356 - com.duosasinos.utility.Log -INFO - click legacy software readmore button
+2022-10-10 11:54:41,149 - com.duosasinos.utility.Log -INFO - =====================================verify quality assurance readmore button TEST START=========================================
+2022-10-10 11:54:44,335 - com.duosasinos.utility.Log -INFO - click quality assurance readmore button
+2022-10-10 11:54:48,894 - com.duosasinos.utility.Log -INFO - =====================================verify visual design readmore button TEST START=========================================
+2022-10-10 11:54:52,361 - com.duosasinos.utility.Log -INFO - click visual design readmore button
+2022-10-10 11:54:56,971 - com.duosasinos.utility.Log -INFO - =====================================verify print design readmore button TEST START=========================================
+2022-10-10 11:54:59,377 - com.duosasinos.utility.Log -INFO - click print design readmore button
+2022-10-10 12:03:17,106 - com.duosasinos.utility.Log -INFO - =====================================verify home outsource readmore button TEST START=========================================
+2022-10-10 12:03:19,653 - com.duosasinos.utility.Log -INFO - click outsource readmore button
+2022-10-10 12:03:21,033 - com.duosasinos.utility.Log -INFO - =====================================verify scroll button TEST START=========================================
+2022-10-10 12:03:21,326 - com.duosasinos.utility.Log -INFO - go to footer
+2022-10-10 12:08:53,192 - com.duosasinos.utility.Log -INFO - =====================================verify home outsource readmore button TEST START=========================================
+2022-10-10 12:08:56,332 - com.duosasinos.utility.Log -INFO - click outsource readmore button
+2022-10-10 12:25:18,100 - com.duosasinos.utility.Log -INFO - =====================================verify home outsource readmore button TEST START=========================================
+2022-10-10 12:25:21,172 - com.duosasinos.utility.Log -INFO - click outsource readmore button
+2022-10-10 12:25:23,193 - com.duosasinos.utility.Log -INFO - =====================================verify scroll button TEST START=========================================
+2022-10-10 12:25:23,482 - com.duosasinos.utility.Log -INFO - go to footer
+2022-10-10 12:25:24,591 - com.duosasinos.utility.Log -INFO - click on scroll Button
+2022-10-10 12:25:25,020 - com.duosasinos.utility.Log -INFO - go to header
+2022-10-10 12:25:26,296 - com.duosasinos.utility.Log -INFO - =====================================verify home slider duosasinos readmore button TEST START=========================================
+2022-10-10 12:25:28,179 - com.duosasinos.utility.Log -INFO - click slider Duosasinos readmore button
+2022-10-10 12:25:29,930 - com.duosasinos.utility.Log -INFO - =====================================verify home slider team readmore button TEST START=========================================
+2022-10-10 12:27:16,630 - com.duosasinos.utility.Log -INFO - =====================================verify home outsource readmore button TEST START=========================================
+2022-10-10 12:27:19,232 - com.duosasinos.utility.Log -INFO - click outsource readmore button
+2022-10-10 12:27:25,730 - com.duosasinos.utility.Log -INFO - =====================================verify home slider team readmore button TEST START=========================================
+2022-10-10 12:27:45,636 - com.duosasinos.utility.Log -INFO - click slider team readmore button
+2022-10-10 12:27:55,246 - com.duosasinos.utility.Log -INFO - =====================================verify home slider team readmore button TEST START=========================================
+2022-10-10 12:28:10,403 - com.duosasinos.utility.Log -INFO - click slider our services readmore button
+2022-10-10 12:28:17,385 - com.duosasinos.utility.Log -INFO - =====================================verify home slider duosasinos readmore button TEST START=========================================
+2022-10-10 12:28:18,681 - com.duosasinos.utility.Log -INFO - click slider Duosasinos readmore button
+2022-10-10 12:28:23,500 - com.duosasinos.utility.Log -INFO - =====================================verify scroll button TEST START=========================================
+2022-10-10 12:28:23,987 - com.duosasinos.utility.Log -INFO - go to footer
+2022-10-10 12:28:25,115 - com.duosasinos.utility.Log -INFO - click on scroll Button
+2022-10-10 12:28:25,532 - com.duosasinos.utility.Log -INFO - go to header
+2022-10-10 12:36:30,558 - com.duosasinos.utility.Log -INFO - =====================================verify home outsource readmore button TEST START=========================================
+2022-10-10 12:36:35,207 - com.duosasinos.utility.Log -INFO - click outsource readmore button
+2022-10-10 12:36:36,980 - com.duosasinos.utility.Log -INFO - =====================================verify scroll button TEST START=========================================
+2022-10-10 12:36:37,344 - com.duosasinos.utility.Log -INFO - go to footer
+2022-10-10 12:36:38,361 - com.duosasinos.utility.Log -INFO - click on scroll Button
+2022-10-10 12:36:38,806 - com.duosasinos.utility.Log -INFO - go to header
+2022-10-10 12:36:40,966 - com.duosasinos.utility.Log -INFO - =====================================verify home slider duosasinos readmore button TEST START=========================================
+2022-10-10 12:36:42,812 - com.duosasinos.utility.Log -INFO - click slider Duosasinos readmore button
+2022-10-10 12:52:44,046 - com.duosasinos.utility.Log -INFO - =====================================verify home outsource readmore button TEST START=========================================
+2022-10-10 12:52:46,965 - com.duosasinos.utility.Log -INFO - click outsource readmore button
+2022-10-10 12:52:52,192 - com.duosasinos.utility.Log -INFO - =====================================verify home slider team readmore button TEST START=========================================
+2022-10-10 12:53:09,282 - com.duosasinos.utility.Log -INFO - click slider team readmore button
+2022-10-10 12:53:14,812 - com.duosasinos.utility.Log -INFO - =====================================verify home slider team readmore button TEST START=========================================
+2022-10-10 12:53:25,037 - com.duosasinos.utility.Log -INFO - click slider our services readmore button
+2022-10-10 12:53:30,148 - com.duosasinos.utility.Log -INFO - =====================================verify home slider duosasinos readmore button TEST START=========================================
+2022-10-10 12:53:31,681 - com.duosasinos.utility.Log -INFO - click slider Duosasinos readmore button
+2022-10-10 12:53:37,932 - com.duosasinos.utility.Log -INFO - =====================================verify scroll button TEST START=========================================
+2022-10-10 12:53:38,350 - com.duosasinos.utility.Log -INFO - go to footer
+2022-10-10 12:53:39,266 - com.duosasinos.utility.Log -INFO - click on scroll Button
+2022-10-10 12:53:39,646 - com.duosasinos.utility.Log -INFO - go to header
+2022-10-10 12:53:47,263 - com.duosasinos.utility.Log -INFO - =====================================verify research and algorithm readmore button TEST START=========================================
+2022-10-10 12:53:50,084 - com.duosasinos.utility.Log -INFO - click research and algorithm readmore button
+2022-10-10 12:53:53,790 - com.duosasinos.utility.Log -INFO - =====================================verify research and algorithm readmore button TEST START=========================================
+2022-10-10 12:53:57,067 - com.duosasinos.utility.Log -INFO - click legacy software readmore button
+2022-10-10 12:54:02,291 - com.duosasinos.utility.Log -INFO - =====================================verify quality assurance readmore button TEST START=========================================
+2022-10-10 12:54:05,060 - com.duosasinos.utility.Log -INFO - click quality assurance readmore button
+2022-10-10 12:54:09,584 - com.duosasinos.utility.Log -INFO - =====================================verify visual design readmore button TEST START=========================================
+2022-10-10 12:54:13,427 - com.duosasinos.utility.Log -INFO - click visual design readmore button
+2022-10-10 12:54:18,347 - com.duosasinos.utility.Log -INFO - =====================================verify print design readmore button TEST START=========================================
+2022-10-10 12:54:20,453 - com.duosasinos.utility.Log -INFO - click print design readmore button
+2022-10-10 13:20:38,572 - com.duosasinos.utility.Log -INFO - =====================================verify home outsource readmore button TEST START=========================================
+2022-10-10 13:20:42,645 - com.duosasinos.utility.Log -INFO - click outsource readmore button
+2022-10-10 13:20:44,620 - com.duosasinos.utility.Log -INFO - =====================================verify scroll button TEST START=========================================
+2022-10-10 13:20:44,924 - com.duosasinos.utility.Log -INFO - go to footer
+2022-10-10 13:20:45,959 - com.duosasinos.utility.Log -INFO - click on scroll Button
+2022-10-10 13:20:46,368 - com.duosasinos.utility.Log -INFO - go to header
+2022-10-10 13:20:49,631 - com.duosasinos.utility.Log -INFO - =====================================verify home slider duosasinos readmore button TEST START=========================================
+2022-10-10 13:20:51,568 - com.duosasinos.utility.Log -INFO - click slider Duosasinos readmore button
+2022-10-10 13:20:53,871 - com.duosasinos.utility.Log -INFO - =====================================verify home slider team readmore button TEST START=========================================
+2022-10-10 13:21:03,230 - com.duosasinos.utility.Log -INFO - click slider our services readmore button
+2022-10-10 13:21:05,521 - com.duosasinos.utility.Log -INFO - =====================================verify home slider team readmore button TEST START=========================================
+2022-10-10 13:21:26,532 - com.duosasinos.utility.Log -INFO - click slider team readmore button
+2022-10-10 13:22:35,676 - com.duosasinos.utility.Log -INFO - =====================================verify home outsource readmore button TEST START=========================================
+2022-10-10 13:22:39,440 - com.duosasinos.utility.Log -INFO - click outsource readmore button
+2022-10-10 13:22:40,798 - com.duosasinos.utility.Log -INFO - =====================================verify scroll button TEST START=========================================
+2022-10-10 13:22:41,114 - com.duosasinos.utility.Log -INFO - go to footer
+2022-10-10 13:22:42,202 - com.duosasinos.utility.Log -INFO - click on scroll Button
+2022-10-10 13:22:42,612 - com.duosasinos.utility.Log -INFO - go to header
+2022-10-10 13:22:43,914 - com.duosasinos.utility.Log -INFO - =====================================verify home slider duosasinos readmore button TEST START=========================================
+2022-10-10 13:22:45,765 - com.duosasinos.utility.Log -INFO - click slider Duosasinos readmore button
+2022-10-10 13:22:48,383 - com.duosasinos.utility.Log -INFO - =====================================verify home slider team readmore button TEST START=========================================
+2022-10-10 13:22:58,342 - com.duosasinos.utility.Log -INFO - click slider our services readmore button
+2022-10-10 13:23:00,301 - com.duosasinos.utility.Log -INFO - =====================================verify home slider team readmore button TEST START=========================================
+2022-10-10 13:23:15,474 - com.duosasinos.utility.Log -INFO - click slider team readmore button
+2022-10-10 13:24:45,646 - com.duosasinos.utility.Log -INFO - =====================================verify home outsource readmore button TEST START=========================================
+2022-10-10 13:24:48,616 - com.duosasinos.utility.Log -INFO - click outsource readmore button
+2022-10-10 13:24:52,670 - com.duosasinos.utility.Log -INFO - =====================================verify home slider team readmore button TEST START=========================================
+2022-10-10 13:25:09,206 - com.duosasinos.utility.Log -INFO - click slider team readmore button
+2022-10-10 13:25:16,160 - com.duosasinos.utility.Log -INFO - =====================================verify home slider team readmore button TEST START=========================================
+2022-10-10 13:25:26,458 - com.duosasinos.utility.Log -INFO - click slider our services readmore button
+2022-10-10 13:25:33,808 - com.duosasinos.utility.Log -INFO - =====================================verify home slider duosasinos readmore button TEST START=========================================
+2022-10-10 13:25:35,195 - com.duosasinos.utility.Log -INFO - click slider Duosasinos readmore button
+2022-10-10 13:25:40,824 - com.duosasinos.utility.Log -INFO - =====================================verify scroll button TEST START=========================================
+2022-10-10 13:25:41,192 - com.duosasinos.utility.Log -INFO - go to footer
+2022-10-10 13:25:42,153 - com.duosasinos.utility.Log -INFO - click on scroll Button
+2022-10-10 13:25:42,545 - com.duosasinos.utility.Log -INFO - go to header
+2022-10-10 13:25:50,192 - com.duosasinos.utility.Log -INFO - =====================================verify research and algorithm readmore button TEST START=========================================
+2022-10-10 13:25:52,594 - com.duosasinos.utility.Log -INFO - click research and algorithm readmore button
+2022-10-10 13:25:56,715 - com.duosasinos.utility.Log -INFO - =====================================verify research and algorithm readmore button TEST START=========================================
+2022-10-10 13:25:59,060 - com.duosasinos.utility.Log -INFO - click legacy software readmore button
+2022-10-10 13:26:04,148 - com.duosasinos.utility.Log -INFO - =====================================verify quality assurance readmore button TEST START=========================================
+2022-10-10 13:26:06,966 - com.duosasinos.utility.Log -INFO - click quality assurance readmore button
+2022-10-10 13:26:11,347 - com.duosasinos.utility.Log -INFO - =====================================verify visual design readmore button TEST START=========================================
+2022-10-10 13:26:14,849 - com.duosasinos.utility.Log -INFO - click visual design readmore button
+2022-10-10 13:26:19,340 - com.duosasinos.utility.Log -INFO - =====================================verify print design readmore button TEST START=========================================
+2022-10-10 13:26:21,724 - com.duosasinos.utility.Log -INFO - click print design readmore button
+2022-10-10 13:31:11,436 - com.duosasinos.utility.Log -INFO - =====================================verify home outsource readmore button TEST START=========================================
+2022-10-10 13:31:14,884 - com.duosasinos.utility.Log -INFO - click outsource readmore button
+2022-10-10 13:31:55,549 - com.duosasinos.utility.Log -INFO - =====================================verify home outsource readmore button TEST START=========================================
+2022-10-10 13:32:00,434 - com.duosasinos.utility.Log -INFO - click outsource readmore button
+2022-10-10 13:32:40,459 - com.duosasinos.utility.Log -INFO - =====================================verify home outsource readmore button TEST START=========================================
+2022-10-10 13:32:43,267 - com.duosasinos.utility.Log -INFO - click outsource readmore button
+2022-10-10 13:32:45,021 - com.duosasinos.utility.Log -INFO - =====================================verify research and algorithm readmore button TEST START=========================================
+2022-10-10 13:32:47,405 - com.duosasinos.utility.Log -INFO - click legacy software readmore button
+2022-10-10 13:32:48,558 - com.duosasinos.utility.Log -INFO - =====================================verify print design readmore button TEST START=========================================
+2022-10-10 13:32:50,721 - com.duosasinos.utility.Log -INFO - click print design readmore button
+2022-10-10 13:32:52,097 - com.duosasinos.utility.Log -INFO - =====================================verify quality assurance readmore button TEST START=========================================
+2022-10-10 13:32:53,796 - com.duosasinos.utility.Log -INFO - click quality assurance readmore button
+2022-10-10 13:32:54,878 - com.duosasinos.utility.Log -INFO - =====================================verify research and algorithm readmore button TEST START=========================================
+2022-10-10 13:32:56,493 - com.duosasinos.utility.Log -INFO - click research and algorithm readmore button
+2022-10-10 13:32:58,052 - com.duosasinos.utility.Log -INFO - =====================================verify home outsource readmore button TEST START=========================================
+2022-10-10 13:33:00,330 - com.duosasinos.utility.Log -INFO - click software development readmore button
+2022-10-10 13:33:01,752 - com.duosasinos.utility.Log -INFO - =====================================verify visual design readmore button TEST START=========================================
+2022-10-10 13:33:03,845 - com.duosasinos.utility.Log -INFO - click visual design readmore button

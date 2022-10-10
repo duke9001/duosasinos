@@ -12,7 +12,7 @@ public class ServicePageTest extends BaseClass{
 	
 	private Service service;		
 
-	@Test(testName = "Test software development readmore button", groups = {"sanity","regression","smoke"})
+	@Test(testName = "Test software development readmore button", groups = {"Smoke", "Sanity", "Regression"})
 	public void TestSoftwareDevelopmentReadmoreButton() throws Throwable {
 		
 		service = new Service();
@@ -30,7 +30,7 @@ public class ServicePageTest extends BaseClass{
 	}
 
 	
-	@Test(testName = "Test research and algorithms readmore button", groups = {"sanity","regression","smoke"})
+	@Test(testName = "Test research and algorithms readmore button", groups = {"Smoke", "Sanity", "Regression"})
 	public void TestReseachandAlgorithmsReadmoreButton() throws Throwable {
 		
 		service = new Service();
@@ -47,7 +47,7 @@ public class ServicePageTest extends BaseClass{
 		extentTest.pass("Verifying if user is able to login to research and algorithm page");
 	}
 	
-	@Test(testName = "Test legacy software readmore button", groups = {"sanity","regression","smoke"})
+	@Test(testName = "Test legacy software readmore button", groups = {"Smoke", "Sanity", "Regression"})
 	public void TestLegacySoftwareReadmoreButton() throws Throwable {
 		
 		service = new Service();
@@ -64,7 +64,7 @@ public class ServicePageTest extends BaseClass{
 		extentTest.pass("Verifying if user is able to login to legacy software page");
 	}
 	
-	@Test(testName = "Test quality assurance readmore button", groups = {"sanity","regression","smoke"})
+	@Test(testName = "Test quality assurance readmore button", groups = {"Smoke", "Sanity", "Regression"})
 	public void TestQualityAssuranceReadmoreButton() throws Throwable {
 		
 		service = new Service();
@@ -81,7 +81,7 @@ public class ServicePageTest extends BaseClass{
 		extentTest.pass("Verifying if user is able to login to quality assurance page");
 	}
 	
-	@Test(testName = "Test visual design readmore button", groups = {"sanity","regression","smoke"})
+	@Test(testName = "Test visual design readmore button", groups = {"Smoke", "Sanity", "Regression"})
 	public void TestVisualDesignReadmoreButton() throws Throwable {
 		
 		service = new Service();
@@ -98,7 +98,7 @@ public class ServicePageTest extends BaseClass{
 		extentTest.pass("Verifying if user is able to login to visual design page");
 	}
 	
-	@Test(testName = "Test print design readmore button", groups = {"sanity","regression","smoke"})
+	@Test(testName = "Test print design readmore button", groups = {"Smoke", "Sanity", "Regression"})
 	public void TestPrintDesignReadmoreButton() throws Throwable {
 		
 		service = new Service();
