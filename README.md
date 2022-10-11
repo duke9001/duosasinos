@@ -1,6 +1,6 @@
-<h1>selenium-example</h1?
+<h1>selenium-example</h1>
 <hr>
-An example project of selenium using ChromeWebDriver, EdgeWebDriver, FirefoxWebDriver
+<p>An example project of selenium using ChromeWebDriver, EdgeWebDriver, FirefoxWebDriver</p>
 <br/>
 <h2>Prerequisites</h2>
 <hr>
