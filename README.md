@@ -7,3 +7,5 @@
 <li>Have java installed</li>
 <li>Have maven installed</li>
 </ul>
+<br/>
+<p>***This is a sample project. There is no connection between camlin</p>
